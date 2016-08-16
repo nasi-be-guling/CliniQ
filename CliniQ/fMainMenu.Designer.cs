@@ -35,12 +35,7 @@
             this.logoutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mainCourseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.doctorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.nurseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aptToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.usersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.accessToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -77,69 +72,32 @@
             // loginToolStripMenuItem1
             // 
             this.loginToolStripMenuItem1.Name = "loginToolStripMenuItem1";
-            this.loginToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.loginToolStripMenuItem1.Size = new System.Drawing.Size(112, 22);
             this.loginToolStripMenuItem1.Text = "Login";
             // 
             // logoutToolStripMenuItem
             // 
             this.logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
-            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
             this.logoutToolStripMenuItem.Text = "Logout";
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             // 
             // mainCourseToolStripMenuItem
             // 
-            this.mainCourseToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.doctorToolStripMenuItem,
-            this.nurseToolStripMenuItem,
-            this.aptToolStripMenuItem});
             this.mainCourseToolStripMenuItem.Name = "mainCourseToolStripMenuItem";
             this.mainCourseToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
             this.mainCourseToolStripMenuItem.Text = "Clinic";
             // 
-            // doctorToolStripMenuItem
-            // 
-            this.doctorToolStripMenuItem.Name = "doctorToolStripMenuItem";
-            this.doctorToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.doctorToolStripMenuItem.Text = "Doctor";
-            // 
-            // nurseToolStripMenuItem
-            // 
-            this.nurseToolStripMenuItem.Name = "nurseToolStripMenuItem";
-            this.nurseToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.nurseToolStripMenuItem.Text = "Nurse";
-            // 
-            // aptToolStripMenuItem
-            // 
-            this.aptToolStripMenuItem.Name = "aptToolStripMenuItem";
-            this.aptToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.aptToolStripMenuItem.Text = "Apt";
-            // 
             // toolsToolStripMenuItem
             // 
-            this.toolsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.usersToolStripMenuItem,
-            this.accessToolStripMenuItem});
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
             this.toolsToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
             this.toolsToolStripMenuItem.Text = "Tools";
-            // 
-            // usersToolStripMenuItem
-            // 
-            this.usersToolStripMenuItem.Name = "usersToolStripMenuItem";
-            this.usersToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.usersToolStripMenuItem.Text = "Users";
-            // 
-            // accessToolStripMenuItem
-            // 
-            this.accessToolStripMenuItem.Name = "accessToolStripMenuItem";
-            this.accessToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.accessToolStripMenuItem.Text = "Access";
             // 
             // fMainMenu
             // 
@@ -173,11 +131,6 @@
         private System.Windows.Forms.ToolStripMenuItem logoutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mainCourseToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem doctorToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem nurseToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aptToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem usersToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem accessToolStripMenuItem;
     }
 }

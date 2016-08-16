@@ -1,7 +1,8 @@
 ###================================================ CliniQ - Clinic Queue Management System =====================================================###
 
 A. History
-This is brand new project of Clinic Queue Management System, will add BPJS webservice support, barcode scanner, local chat client, an queue caller/display, etc.
+This is brand new project of Clinic Queue Management System, use brand new mono framework support, more simple and sleek UI look, will add BPJS webservice 
+support, barcode scanner, local chat client, an queue caller/display, etc.
 This apps store patient data in DBMS. The data is used for both doctor and nurses to:
 - for nurse, apps is use for calling patient and then "send" it to:
 - for doctor, apps will "send" patient from front (nurses desk) to back (examination/doctor room)

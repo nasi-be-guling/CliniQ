@@ -22,5 +22,18 @@ namespace CliniQ.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("h85YcKHvYwnYyMxFlX/a2ITSjaQxCwSKO5/q9Lt4om8U8rPF/qGt93546qdu0eMrSxmMVXFXazrjzyo01" +
+            "BedXQ==")]
+        public string Setting {
+            get {
+                return ((string)(this["Setting"]));
+            }
+            set {
+                this["Setting"] = value;
+            }
+        }
     }
 }
